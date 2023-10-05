@@ -1,0 +1,53 @@
+body {
+    background-color: #e395af;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h1:hover {
+    color: black;
+}
+
+.first-para {
+    text-align: center;
+    color: white;
+    margin: 0px auto;
+    width: 40%;
+}
+
+.original-speaker {
+    text-align: center;
+    color: white;
+}
+
+.list-items {
+    text-align: left;
+    font-weight: 500;
+    margin: 30px auto;
+    width: 40%;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: 0px auto;
+}
+
+.quoted-text {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    width: 23%;
+    font-size: xx-large;
+}
+
+.bottom {
+    text-align: center;
+    font-size: small;
+    margin: 40px auto;
+    width: 21%;
+}
