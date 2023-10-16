@@ -1,0 +1,20 @@
+
+
+body {
+    font-size: 50px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+   font-size: 3em;
+   z-index: 1;
+   align-self: center;
+   }
+
+
+.grid_2 {
+
+}
