@@ -10,5 +10,6 @@
         "Swaseys",
         "undammed",
         "Wireframes"
-    ]
+    ],
+    "editor.formatOnSaveMode": "modifications"
 }
