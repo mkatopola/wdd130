@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto&display=swap');
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #2F26FA;
+    --secondary-color: #63FA31;
+    --accent1-color: #BD508F;
+    --accent2-color: #FFFFFF;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: Agbalumo;
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #2F26FA;  /* headlines on a white background */ 
+    --headline-color-on-color: #FFFFFF; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #2F26FA; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #2F26FA;
+    --nav-link-color: #2F26FA;
+    --nav-background-color: #63FA31;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #2F26FA;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: white;
+  color: #2F26FA;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 25px 0;
+  padding: 35px;
+}
+
+main section {
+  text-align: center;
+}
+
+header {
+  background-color: #BD508F;
+  color: white;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: #63FA31;
+  color: #2F26FA;
+}
+
+h2 {
+  margin: 0;
+  font-family: agbalumo, roboto, helvetica;
+}
+
+footer {
+  background-color: #BD508F;
+  color: white;
+  padding: 25px 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer .social img {
+  padding-top: 35px;
+}
+
+footer p:hover {
+  text-decoration: underline;
+}
+
+footer a:hover {
+ color: #63FA31;
+ text-decoration: underline;
+}
+
+.logo {
+  width: 80px;
+  padding: 15px;
+}
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: #BD508F;
+  margin-top: 50px;
+ 
+}
+
+.hero-img {
+  grid-column: 2/3;
+  display: block;
+  margin: auto;
+  width: 100%;
+
+}
+
+h1 {
+  grid-column: 2/3;
+  margin-top: -100px;
+  text-align: center;
+  font-family:agbalumo, roboto, Helvetica;
+  font-size: 3em;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 2fr 100px 2fr;
+  grid-row-gap: 50px;
+  margin-top: 50px;
+  padding: 25px;
+  background-color: #2F26FA;
+  color: #FFFFFF;
+}
+
+.para1 {
+  grid-column: 1/2;
+  margin: 50px;
+  padding: 15px;
+  align-self: center;
+}
+
+.image1 {
+  grid-column: 3/4;
+  margin: 50px;
+  padding: 15px;
+  height: 400px;
+  width: 500px;
+}
+
+.para2 {
+  grid-column: 1/2;
+  margin: 50px;
+  padding: 15px;
+  align-self: center;
+
+}
+
+.image2 {
+  grid-column: 3/4;
+  margin: 50px;
+  padding: 15px;
+  height: 400px;
+  width: 500px;
+}
