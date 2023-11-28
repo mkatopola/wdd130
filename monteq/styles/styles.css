@@ -83,7 +83,6 @@ h2,
 h3,
 h4,
 h5 {
-  /* margin: 0; */
   font-family: agbalumo, roboto, helvetica;
 }
 
@@ -136,6 +135,8 @@ footer a:hover {
   display: block;
   margin: auto;
   width: 100%;
+  padding: 15px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 .home {
@@ -162,6 +163,7 @@ footer a:hover {
   padding: 15px;
   height: 400px;
   width: 500px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 .home-2 {
@@ -179,6 +181,7 @@ footer a:hover {
   border: 15px;
   height: 400px;
   width: 500px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 .edu-1 {
@@ -197,6 +200,7 @@ footer a:hover {
   border: 15px;
   height: 300px;
   width: 400px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 .edu-2 {
@@ -215,6 +219,7 @@ footer a:hover {
   border: 15px;
   height: 300px;
   width: 400px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 .edu-3 {
@@ -233,6 +238,7 @@ footer a:hover {
   border: 15px;
   height: 300px;
   width: 400px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 .exp-1 {
@@ -251,6 +257,7 @@ footer a:hover {
   border: 15px;
   height: 350px;
   width: 300px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 .exp-2 {
@@ -269,6 +276,7 @@ footer a:hover {
   border: 15px;
   height: 300px;
   width: 300px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 .exp-3 {
@@ -287,6 +295,7 @@ footer a:hover {
   border: 15px;
   height: 300px;
   width: 300px;
+  box-shadow: 5px 5px 5px 5px #63fa31;
 }
 
 /* Style the navbar */
