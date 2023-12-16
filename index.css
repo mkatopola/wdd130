@@ -1,0 +1,29 @@
+
+nav {
+    display: flex;
+    justify-content:space-around ;
+    background-color: blue;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    font-size: larger;
+}
+  
+nav a:hover {
+    background-color: #63fa31;
+    color: #2f26fa;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: xx-large;
+}
+
