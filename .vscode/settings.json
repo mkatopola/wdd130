@@ -11,5 +11,6 @@
         "undammed",
         "Wireframes"
     ],
-    "editor.formatOnSaveMode": "modifications"
+    "editor.formatOnSaveMode": "modifications",
+    "liveServer.settings.port": 5501
 }
